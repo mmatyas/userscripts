@@ -1,9 +1,13 @@
 // ==UserScript==
 // @name        CompactSpace
+// @author      Mustoha Mátyás
 // @namespace   matyas.mustoha
 // @include     /^https?://www.coosp.etr.u-szeged.hu/(Home|Scene).*/
 // @version     1.0
 // @grant       none
+// @downloadURL https://raw.githubusercontent.com/mmatyas/userscripts/master/CompactSpace/CompactSpace.user.js
+// @updateURL   https://raw.githubusercontent.com/mmatyas/userscripts/master/CompactSpace/CompactSpace.user.js
+// @description Valamivel tömörebb megjelenést biztosító script az SZTE CooSpace oldala számára.
 // ==/UserScript==
 
 $("#breadcrumb2").remove();
