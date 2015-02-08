@@ -14,6 +14,7 @@ $("#breadcrumb2").remove();
 $("#header").attr('id', 'header_customized');
 $("#header_customized li").css("background-image", "none");
 $("#header_customized a").css("padding-top", "5px");
+$("#spaceholder").remove();
 $("div .scene").css("min-height", "0px").css("padding-bottom", "0px");
 $(".list li").css("border", "0px");
 $(".fav_code").remove();
